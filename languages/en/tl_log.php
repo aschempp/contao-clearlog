@@ -30,14 +30,7 @@
 
 
 /**
- * TL_CACHE
+ * Buttons
  */
-$GLOBALS['TL_CACHE'][] = 'tl_log';
-
-
-/**
- * Backend Modules
- */
-$GLOBALS['BE_MOD']['system']['log']['clearlog'] = array('tl_log_clearlog', 'clearLog');
-$GLOBALS['BE_MOD']['system']['log']['stylesheet'] = 'system/modules/clearlog/html/clearlog.css';
+$GLOBALS['TL_LANG']['tl_log']['clearlog'] = array('Clear Log', 'Click here to empty the system log');
 
